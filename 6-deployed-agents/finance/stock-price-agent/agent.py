@@ -28,7 +28,7 @@ agent = Agent(
     name=AGENT_NAME,
     seed=AGENT_SEED,
     port=PORT,
-    endpoint=f"http://localhost:{PORT}/submit",
+    endpoint=f"http://fetchai-scrt-agent.scrtlabs.com:{PORT}/submit",
 )
 
 proto = QuotaProtocol(
